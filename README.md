@@ -152,7 +152,59 @@ No claims in this repository exceed those made in the theoretical work. All diag
 
 
 
+# Keywords
 
+Gravity of Probability
+Probabilistic curvature
+Quantum decoherence gravity
+Decoherence-induced curvature
+Quantum information and gravity
+Semiclassical gravity extension
+Probabilistic stress-energy tensor
+Interference-weighted quantum dynamics
+
+Dark matter alternatives
+No dark matter cosmology
+Emergent gravity diagnostics
+Non-particle dark matter
+Information-based gravity
+Decoherence-driven gravity
+
+Cosmic voids
+Void stacking analysis
+DESI DR2
+DESI void catalog
+DESI VACs
+Large-scale structure
+Low-density cosmology
+Cosmic boundary effects
+
+CMB temperature anomalies
+CMB dipole residuals
+CMB large-angle anomalies
+Planck SMICA
+HEALPix analysis
+Spherical harmonic analysis
+
+Gravitational lensing diagnostics
+Weak lensing anomalies
+Boundary saturation effects
+Geometric fossilization
+Curvature boundary shell
+Decoherence boundary theory
+
+Pre-registered predictions
+Falsifiable cosmology
+Model-independent diagnostics
+Survey boundary effects
+Cosmological systematics testing
+
+Python cosmology
+Astrophysics data analysis
+Healpy
+NumPy SciPy cosmology
+Open science cosmology
+Reproducible research
 
 
 
