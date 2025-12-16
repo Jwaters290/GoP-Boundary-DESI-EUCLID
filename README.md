@@ -9,6 +9,14 @@ https://github.com/Jwaters290
 
 This repository focuses specifically on boundary diagnostics and large-scale anisotropy tests using DESI and EUCLID data products, and should be interpreted as a computational companion to the primary Gravity of Probability papers and thesis.
 
+## Citation
+
+If you use this code or methodology, please cite:
+
+Waters, J. (2025). *Gravity of Probability: Boundary Diagnostics Using DESI and EUCLID*.  
+GitHub repository: https://github.com/Jwaters290/GoP-Boundary-DESI-EUCLID
+
+
 
 # GoP(Gravity of Probability)-Boundary-DESI-EUCLID
 
