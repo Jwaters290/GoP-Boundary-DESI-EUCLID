@@ -1,4 +1,4 @@
-# GoP-Boundary-DESI-EUCLID
+# GoP(Gravity of Probability)-Boundary-DESI-EUCLID
 
 # Repo Layout
 ```
