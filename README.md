@@ -48,13 +48,33 @@ git clone [https://github.com/your-username/gop-boundary-desi.git](https://githu
 cd gop-boundary-desi
 pip install -r requirements.txt
 ```
+# Implementation Notes and Future Extensions
 
+The current implementation prioritizes clarity, transparency, and conservative assumptions over optimization or model complexity. Several extensions are intentionally left inactive or unimplemented to avoid introducing additional degrees of freedom prior to validated data releases.
+
+Planned or optional extensions include:
+
+ - Performance optimizations for very large void catalogs (e.g., vectorized HEALPix queries or cached ring selections).
+ - Alternative boundary depth proxies (e.g., redshift-weighted comoving distance or survey depth maps), with the current latitude-based proxy retained as a neutral geometric placeholder.
+ - Optional visualization outputs (e.g., saved profile plots or regression diagnostics), disabled by default to avoid presentation bias.
+ - Synthetic validation tests using mock void catalogs and injected dipole signals to verify recovery behavior under controlled conditions.
+ - These extensions are not required for the core diagnostic goals of the repository and will be introduced only when they improve robustness without compromising falsifiability.
 
 #  Gravity of Probability Boundary Diagnostics for DESI DR2
 
 This repository provides analysis tools to test whether decoherence-induced boundary saturation effects—as developed in the accompanying Gravity of Probability (GoP) framework—can explain large-scale dipole mismatches and void-stacking anomalies without introducing new microphysical degrees of freedom.
 
 The code is designed as a diagnostic and validation layer, parallel to the theoretical paper and thesis, and is suitable for application to DESI DR2 preview products, Planck CMB maps, and future Euclid data.
+
+# Validation Philosophy
+This repository is designed as a diagnostic and falsifiable analysis pipeline, not a parameter-tuning or model-fitting framework.
+
+All Gravity of Probability (GoP) parameters used here are globally fixed and derived outside this codebase. The boundary and saturation templates implemented in this repository are phenomenological diagnostics only, intended to test whether specific large-scale geometric imprints—if present—are consistent with decoherence-driven boundary effects predicted by the GoP framework.
+
+No claims in this repository depend on positive detections.
+Both null results and negative regressions are scientifically meaningful and serve to constrain or falsify boundary interpretations. Any apparent reduction in residuals or improved regression metrics must be reproducible across datasets and analysis choices to be considered physically significant.
+
+This separation between theory, prediction, and diagnostic testing is deliberate and intended to minimize confirmation bias.
 
 # Scientific Motivation
 
