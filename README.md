@@ -106,6 +106,19 @@ This repository provides analysis tools to test whether decoherence-induced boun
 
 The code is designed as a diagnostic and validation layer, parallel to the theoretical paper and thesis, and is suitable for application to DESI DR2 preview products, Planck CMB maps, and future Euclid data.
 
+DESI Data Release 2 (DR2) cosmology results were formally published on March 19, 2025, including measurements of baryon acoustic oscillations (BAO) from both the Lyman-alpha forest and combined galaxy/quasar samples, and associated cosmological constraints. 
+DESI Data
+
+Supporting validation and methodological papers for these results are also available.
+
+At the time of writing, specific value-added catalogs (VACs) targeting void stacking, lensing cross-products, or large-angle residual diagnostics have not yet been released.
+Value-added Catalogs: https://data.desi.lbl.gov/doc/releases/edr/#value-added-catalogs
+
+When such VACs become public, they can be incorporated into this repository’s workflows by providing appropriate baseline CSVs (e.g., k,P0 for power spectra or R,DS0 for lensing profiles) to the diagnostic scripts.
+
+See also: DESI DR2 Publications — https://data.desi.lbl.gov/doc/papers/dr2/
+
+
 # Validation Philosophy
 This repository is designed as a diagnostic and falsifiable analysis pipeline, not a parameter-tuning or model-fitting framework.
 
