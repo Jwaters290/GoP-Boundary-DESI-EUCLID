@@ -134,7 +134,7 @@ Negative results are equally valuable and would indicate that boundary geometry 
 
 This repository is designed to sit parallel to the Gravity of Probability theoretical program rather than to replace or extend it.
 
-The underlying framework—deriving probabilistic curvature from quantum decoherence and its boundary saturation—has been developed in a series of preprints and a publicly archived doctoral thesis, including:
+The underlying framework—deriving probabilistic curvature from quantum decoherence and its boundary saturation—has been developed in a series of preprints and a publicly archived thesis, including:
  - The Gravity of Probability: Replicating Dark Matter Effects Through Quantum Decoherence Curvature (Figshare thesis archive)
 https://figshare.com/articles/thesis/The_Gravity_of_Probability_i_Replicating_Dark_Matter_Effects_Through_Quantum_Decoherence_Curvature_i_/29815934
  - DESI DR2 VACs Predictions (pre-registered observational forecasts)
