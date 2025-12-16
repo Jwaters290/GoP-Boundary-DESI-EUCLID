@@ -1,3 +1,15 @@
+# Parallel Repositories
+All repositories published under the same account operate in parallel to this repository and are grounded in the same core theoretical claims of the Gravity of Probability (GoP) framework.
+
+Each repository explores a distinct observational, numerical, or methodological aspect of the theory, but no repository introduces independent or conflicting assumptions. Results, diagnostics, and analyses are intended to be mutually consistent and cross-verifiable.
+
+A full list of related repositories can be found at:
+
+https://github.com/Jwaters290
+
+This repository focuses specifically on boundary diagnostics and large-scale anisotropy tests using DESI and EUCLID data products, and should be interpreted as a computational companion to the primary Gravity of Probability papers and thesis.
+
+
 # GoP(Gravity of Probability)-Boundary-DESI-EUCLID
 
 # Repo Layout
