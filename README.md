@@ -60,6 +60,46 @@ Planned or optional extensions include:
  - Synthetic validation tests using mock void catalogs and injected dipole signals to verify recovery behavior under controlled conditions.
  - These extensions are not required for the core diagnostic goals of the repository and will be introduced only when they improve robustness without compromising falsifiability.
 
+
+# GoP-Boundary-DESI-EUCLID/scripts/gop_practice_diagnostics.py
+
+Swap in real data (no code changes)
+
+This script uses analytic placeholder baselines unless you provide a baseline CSV. To use real data later, just:
+
+ - export a baseline CSV
+ - pass it into the script
+No GoP parameters or code changes are required.
+
+
+A) Use a real baseline for P(k)
+
+Baseline CSV format (headers required):
+
+ - k, P0
+
+```
+python scripts/gop_practice_diagnostics.py pk \
+  --kappaA 1.5e-15 --E0 1e12 --f_ent 0.20 --A_CP 0.0245 \
+  --pk-baseline data/baselines/pk_baseline.csv \
+  --out outputs/pk_diag.csv
+```
+
+B) Use a real baseline for ΔΣ(R)
+
+Baseline CSV format (headers required):
+
+ - R, DS0
+
+```
+python scripts/gop_practice_diagnostics.py ds \
+  --kappaA 1.5e-15 --E0 1e12 --f_ent 0.20 --A_CP 0.0245 \
+  --ds-baseline data/baselines/deltasigma_baseline.csv \
+  --out outputs/ds_diag.csv
+```
+
+
+
 #  Gravity of Probability Boundary Diagnostics for DESI DR2
 
 This repository provides analysis tools to test whether decoherence-induced boundary saturation effects—as developed in the accompanying Gravity of Probability (GoP) framework—can explain large-scale dipole mismatches and void-stacking anomalies without introducing new microphysical degrees of freedom.
