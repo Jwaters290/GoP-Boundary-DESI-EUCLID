@@ -132,20 +132,23 @@ Negative results are equally valuable and would indicate that boundary geometry 
 # Relationship to the Gravity of Probability Papers and Thesis
 
 
-This repository is designed to sit parallel to the theoretical work: 
-(PLACEHOLDER - NOT YET PUBLISHED, POST-DESI VACs Validation of primary work
-https://figshare.com/articles/thesis/The_Gravity_of_Probability_i_Replicating_Dark_Matter_Effects_Through_Quantum_Decoherence_Curvature_i_/29815934 
+This repository is designed to sit parallel to the Gravity of Probability theoretical program rather than to replace or extend it.
 
-https://figshare.com/articles/preprint/DESI_DR2_VACs_Predictions/30593876?file=59479682 )
-
-The paper establishes the mechanism: decoherence → curvature → boundary → fossilization
-
-This code tests whether that mechanism leaves detectable imprints in real data
-
-No claims in this repository exceed those made in the paper. All diagnostics are downstream of, and consistent with, the published framework.
+The underlying framework—deriving probabilistic curvature from quantum decoherence and its boundary saturation—has been developed in a series of preprints and a publicly archived doctoral thesis, including:
+ - The Gravity of Probability: Replicating Dark Matter Effects Through Quantum Decoherence Curvature (Figshare thesis archive)
+https://figshare.com/articles/thesis/The_Gravity_of_Probability_i_Replicating_Dark_Matter_Effects_Through_Quantum_Decoherence_Curvature_i_/29815934
+ - DESI DR2 VACs Predictions (pre-registered observational forecasts)
+https://figshare.com/articles/preprint/DESI_DR2_VACs_Predictions/30593876
 
 
 
+Those works establish the physical mechanism:
+
+decoherence → probabilistic curvature → geometric boundary saturation → fossilized large-scale signatures
+
+The purpose of this repository is narrower and complementary. It provides diagnostic tools to test whether that mechanism leaves detectable imprints in real survey data, such as void-stacked CMB temperature profiles and large-angle dipole residuals.
+
+No claims in this repository exceed those made in the theoretical work. All diagnostics implemented here are downstream of, and fully consistent with, the published Gravity of Probability framework.
 
 
 
