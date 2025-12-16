@@ -22,19 +22,22 @@ GitHub repository: https://github.com/Jwaters290/GoP-Boundary-DESI-EUCLID
 
 # Repo Layout
 ```
-gop-boundary-desi/
-  README.md
-  requirements.txt
-  gop_boundary_desi/
-    io.py          # Input readers (void catalogs, maps)
-    boundary.py    # Boundary / saturation templates
-    stacking.py    # Void stacking routines
-    dipole.py      # Monopole/dipole fitting and regression
-    cli.py         # Command-line interface
-  scripts/
-    run_stack_voids.py
-  notebooks/
-    01_quickstart.ipynb
+GoP-Boundary-DESI-EUCLID/
+├─ .gitignore
+├─ LICENSE
+├─ README.md                  # Detailed overview, motivation, usage, data requirements
+├─ requirements.txt           # (Referenced; likely numpy, scipy, astropy, healpy, pandas, matplotlib, tqdm)
+├─ gop_boundary_desi/         # Core package
+│   ├─ __init__.py
+│   ├─ io.py                  # Void catalog/CMB map readers (CSV/Parquet/FITS/HEALPix)
+│   ├─ boundary.py            # Boundary/saturation template builders (shells/gradients)
+│   ├─ stacking.py            # Void stacking for CMB ΔT profiles
+│   ├─ dipole.py              # Monopole/dipole fits + template regression
+│   └─ cli.py                 # Command-line interface orchestrator
+├─ scripts/
+│   └─ run_stack_voids.py     # Example workflow script
+└─ notebooks/
+    └─ 01_quickstart.ipynb    # Introductory walkthrough (install, data prep, basic run)
 
 ```
 
