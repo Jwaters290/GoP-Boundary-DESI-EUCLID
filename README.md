@@ -21,7 +21,7 @@ gop-boundary-desi/
 Installation
 
 ```
-git clone https://github.com/your-username/gop-boundary-desi.git
+git clone [https://github.com/your-username/gop-boundary-desi.git](https://github.com/Jwaters290/GoP-Boundary-DESI-EUCLID)
 cd gop-boundary-desi
 pip install -r requirements.txt
 ```
